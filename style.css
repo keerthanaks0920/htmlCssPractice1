@@ -303,16 +303,6 @@ body,.root{
     .row3 .col1 .item button {
         width: 100%;
     }
-    .social {
-        position: relative;
-        float: none;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .social img {
-        height: auto;
-        width: 80%;
-    }
     .help {
         right: 20px;
         bottom: 20px;
