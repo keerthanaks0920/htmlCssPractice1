@@ -237,3 +237,116 @@ body,.root{
     width: 50px;
     height: 50px;
 }
+@media (max-width: 1024px) {
+    .row1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .row1 .content-sec {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .row2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card {
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    .row3 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .col1 {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .col1 .item button {
+        width: auto;
+        padding: 10px;
+    }
+    .col2 {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .list ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .list ul li {
+        margin: 10px 0;
+    }
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    .row3 .col1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row3 .col1 .item button {
+        width: 100%;
+    }
+    .social {
+        position: relative;
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .social img {
+        height: auto;
+        width: 80%;
+    }
+    .help {
+        right: 20px;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .help img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon {
+        font-size: 1.2em;
+    }
+    .nav-icon2 img {
+        height: 20px;
+        padding-right: 1em;
+    }
+    .row1 .content-sec {
+        padding: 20px;
+    }
+    .row3 .col2 {
+        padding: 10px;
+    }
+    .info-heading {
+        font-size: 18px;
+    }
+    .info, .info span {
+        font-size: 14px;
+    }
+    .next-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
